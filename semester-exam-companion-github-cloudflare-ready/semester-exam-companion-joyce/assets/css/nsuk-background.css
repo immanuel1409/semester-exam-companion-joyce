@@ -1,7 +1,32 @@
-/* Official NSUK crest watermark behind the app interface. */
-body{position:relative;isolation:isolate;background-color:#f6f3fb;background-image:linear-gradient(rgba(250,248,255,.84),rgba(250,248,255,.84)),url("../images/nsuk-crest.png");background-position:center,center;background-repeat:no-repeat;background-size:cover,min(78vw,78vh);background-attachment:fixed,fixed}
-.app,.main,.view{background:transparent}
-.panel,.modal,.side-card,.joyce-celebration,.notice,.exam-card,.briefing-card,.tool-card,.progress-panel,.week-group{background-color:rgba(255,255,255,.90);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
-.sidebar{background-color:rgba(31,23,55,.96)}
-@media(max-width:760px){body{background-attachment:scroll,scroll;background-size:cover,min(90vw,70vh);background-position:center,center 46%}}
+/* NSUK crest is the single, page-wide backdrop for every screen and section. */
+:root,html,body{min-height:100%;background:transparent!important}
+html{background-color:#f2eff8!important}
+body{
+  min-height:100vh;
+  margin:0;
+  position:relative;
+  isolation:isolate;
+  background-color:transparent!important;
+  background-image:linear-gradient(rgba(247,244,252,.56),rgba(247,244,252,.56)),url("../images/nsuk-crest.png")!important;
+  background-position:center center,center center!important;
+  background-repeat:no-repeat,no-repeat!important;
+  background-size:cover, min(76vw,76vh)!important;
+  background-attachment:fixed,fixed!important;
+  background-origin:border-box,border-box;
+  background-clip:border-box,border-box;
+}
+/* Keep full-page app wrappers transparent so the crest remains visible behind every view. */
+.app,.main,.view,.content,.workspace,.page,.page-content,.dashboard,.schedule,.briefings,.preparation{
+  background:transparent!important;
+}
+/* Content surfaces remain readable without replacing the overall backdrop. */
+.panel,.modal,.side-card,.joyce-celebration,.notice,.exam-card,.briefing-card,.tool-card,.progress-panel,.week-group,.hero,.topbar{
+  background-color:rgba(255,255,255,.78)!important;
+  -webkit-backdrop-filter:blur(3px);
+  backdrop-filter:blur(3px);
+}
+.sidebar{background-color:rgba(31,23,55,.88)!important}
+@media(max-width:760px){
+  body{background-attachment:scroll,scroll!important;background-size:cover,min(88vw,70vh)!important;background-position:center center,center center!important}
+}
 @media print{body{background-image:none!important}}
