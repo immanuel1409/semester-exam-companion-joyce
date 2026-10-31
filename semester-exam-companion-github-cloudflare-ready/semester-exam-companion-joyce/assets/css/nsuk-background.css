@@ -1,0 +1,7 @@
+/* Official NSUK crest watermark behind the app interface. */
+body{position:relative;isolation:isolate;background-color:#f6f3fb;background-image:linear-gradient(rgba(250,248,255,.84),rgba(250,248,255,.84)),url("../images/nsuk-crest.png");background-position:center,center;background-repeat:no-repeat;background-size:cover,min(78vw,78vh);background-attachment:fixed,fixed}
+.app,.main,.view{background:transparent}
+.panel,.modal,.side-card,.joyce-celebration,.notice,.exam-card,.briefing-card,.tool-card,.progress-panel,.week-group{background-color:rgba(255,255,255,.90);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px)}
+.sidebar{background-color:rgba(31,23,55,.96)}
+@media(max-width:760px){body{background-attachment:scroll,scroll;background-size:cover,min(90vw,70vh);background-position:center,center 46%}}
+@media print{body{background-image:none!important}}
