@@ -1,0 +1,118 @@
+{
+  "timezone": "Africa/Lagos",
+  "timezone_label": "WAT (UTC+1)",
+  "duration_minutes_each": 180,
+  "venue_default": "ICT",
+  "exams": [
+    {
+      "id": 1,
+      "course": "GLT121",
+      "date": "2026-10-23",
+      "day": "Friday",
+      "start": "11:30",
+      "end": "14:30",
+      "week": 1,
+      "venue": "ICT"
+    },
+    {
+      "id": 2,
+      "course": "CHM121",
+      "date": "2026-10-27",
+      "day": "Tuesday",
+      "start": "08:00",
+      "end": "11:00",
+      "week": 2,
+      "venue": "ICT"
+    },
+    {
+      "id": 3,
+      "course": "BIO122",
+      "date": "2026-10-28",
+      "day": "Wednesday",
+      "start": "08:00",
+      "end": "11:00",
+      "week": 2,
+      "venue": "ICT"
+    },
+    {
+      "id": 4,
+      "course": "CHM102",
+      "date": "2026-10-30",
+      "day": "Friday",
+      "start": "15:00",
+      "end": "18:00",
+      "week": 2,
+      "venue": "ICT"
+    },
+    {
+      "id": 5,
+      "course": "GST121",
+      "date": "2026-11-02",
+      "day": "Monday",
+      "start": "08:00",
+      "end": "11:00",
+      "week": 3,
+      "venue": "ICT"
+    },
+    {
+      "id": 6,
+      "course": "GST124",
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "start": "08:00",
+      "end": "11:00",
+      "week": 3,
+      "venue": "ICT"
+    },
+    {
+      "id": 7,
+      "course": "GLT122",
+      "date": "2026-11-06",
+      "day": "Friday",
+      "start": "08:00",
+      "end": "11:00",
+      "week": 3,
+      "venue": "ICT"
+    },
+    {
+      "id": 8,
+      "course": "BIO125",
+      "date": "2026-11-06",
+      "day": "Friday",
+      "start": "15:00",
+      "end": "18:00",
+      "week": 3,
+      "venue": "ICT"
+    },
+    {
+      "id": 9,
+      "course": "PHY127",
+      "date": "2026-11-07",
+      "day": "Saturday",
+      "start": "11:30",
+      "end": "14:30",
+      "week": 3,
+      "venue": "ICT"
+    },
+    {
+      "id": 10,
+      "course": "PHY121",
+      "date": "2026-11-10",
+      "day": "Tuesday",
+      "start": "08:00",
+      "end": "11:00",
+      "week": 4,
+      "venue": "ICT"
+    },
+    {
+      "id": 11,
+      "course": "MTH121",
+      "date": "2026-11-13",
+      "day": "Friday",
+      "start": "08:00",
+      "end": "11:00",
+      "week": 4,
+      "venue": "ICT"
+    }
+  ]
+}

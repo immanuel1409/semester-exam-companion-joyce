@@ -1,0 +1,22 @@
+Semester Exam Companion — Joyce Edition project inventory
+
+index.html
+assets/css/styles.css
+assets/js/app.js
+data/exams.json
+data/daily-wishes.json
+data/timetable.csv
+manifest.webmanifest
+package.json
+.gitignore
+.github/workflows/validate.yml
+scripts/validate-project.mjs
+scripts/build.mjs
+README.md
+FILE_INDEX.txt
+docs/PROJECT_SPEC.md
+docs/CONTENT_CATALOG.md
+docs/INSTALLATION_AND_LIMITATIONS.md
+docs/DEPLOYMENT_CLOUDFLARE.md
+docs/CHANGELOG.md
+reference/handwritten-exam-timetable.jpg

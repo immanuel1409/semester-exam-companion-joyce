@@ -1,0 +1,15 @@
+{
+  "name": "semester-exam-companion-joyce-edition",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone exam timetable, briefings, calendar reminders, subject-themed encouragement and timed post-exam message.",
+  "scripts": {
+    "check": "node --check assets/js/app.js",
+    "validate": "node scripts/validate-project.mjs",
+    "serve": "python -m http.server 8000",
+    "build": "node scripts/build.mjs",
+    "preview": "python -m http.server 8000 --directory dist"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
